@@ -1,0 +1,78 @@
+/* index.css */
+
+@font-face {
+    font-family: 'Titillium';
+    src: url('./fonts/TitilliumWeb-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+#portfolio {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+#aboutme {
+  background-color: grey;
+  padding: 50px;
+}
+
+#contactme {
+  background-color: #222222;
+  padding: 50px;
+  color: white;
+}
+
+.portfolio-title {
+    font-family: 'Titillium', sans-serif;
+}
+
+.contact-me-title {
+    font-family: 'Titillium', sans-serif;
+}
+
+.vertical-line {
+  width: 2px;
+  background-color: black;
+  height: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Titillium', sans-serif;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.year-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: grey;
+  margin: 40px 0;
+}
+
+.year-divider::before,
+.year-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.year-divider::before {
+  margin-right: 15px;
+}
+
+.year-divider::after {
+  margin-left: 15px;
+}
+
+.vertical-separator {
+  width: 2px;
+  height: 100%;
+  background-color: #ccc; /* or any color */
+}
